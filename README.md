@@ -18,3 +18,15 @@ This repository contains my professional tasks and projects completed during my 
 **📈 Key Results:** * **Linear Regression:** R² Score = 0.9178 (Best Performer)
 * **Random Forest:** R² Score = 0.8845
 * **Insight:** Momentum-based features show a highly linear trend, allowing simpler models to outperform complex ensembles in short-term predictions.
+
+---
+
+---
+
+## 📂 Task 3: Heart Disease Prediction (Breast Cancer Diagnostic)
+**🎯 Objective:** To predict whether a medical case is Malignant or Benign using classification.
+**📊 Dataset:** Scikit-Learn Built-in Breast Cancer Dataset.
+**🛠️ Tools & Libraries:** Python, Scikit-Learn (Logistic Regression), StandardScaler, Seaborn.
+**📈 Key Results:** * **Model Accuracy:** 97.37%
+* **ROC-AUC Score:** [Insert your AUC value, likely 0.99]
+* **Key Finding:** Scaling features using `StandardScaler` was critical for model convergence. The model shows extremely high sensitivity, making it reliable for preliminary medical screening.
