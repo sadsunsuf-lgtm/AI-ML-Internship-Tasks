@@ -5,22 +5,16 @@ This repository contains my professional tasks and projects completed during my 
 ---
 
 ## 📂 Task 1: Exploratory Data Analysis (EDA) - Iris Dataset
-
-### 🎯 Objective
-To perform a comprehensive statistical and visual analysis of the Iris flower dataset to understand feature distributions and species separability.
-
-### 📊 Dataset
-*   **Name:** Iris Dataset
-*   **Source:** Seaborn Built-in / UCI Machine Learning Repository
-*   **Features:** Sepal Length, Sepal Width, Petal Length, Petal Width (150 samples)
-
-### 🛠️ Tools & Libraries
-*   **Python**, **Pandas** (Data Manipulation)
-*   **Seaborn**, **Matplotlib** (Data Visualization)
-
-### 📈 Key Results & Findings
-*   **Species Separation:** The *Setosa* species is linearly separable from *Versicolor* and *Virginica* based on petal dimensions.
-*   **Strong Correlation:** Identified a high positive correlation ($0.96$) between **Petal Length** and **Petal Width**.
-*   **Data Integrity:** Confirmed 0% missing values across all features, ensuring a high-quality dataset for future modeling.
+**🎯 Objective:** To perform a comprehensive statistical and visual analysis of the Iris flower dataset.
+**📊 Dataset:** Iris Dataset (Seaborn)
+**📈 Key Results:** Identified 0.96 correlation between petal dimensions; Setosa is linearly separable.
 
 ---
+
+## 📂 Task 2: Stock Price Prediction (Short-Term)
+**🎯 Objective:** To predict the next day's closing price of a stock using historical Yahoo Finance data.
+**📊 Dataset:** Apple (AAPL) Historical Data via `yfinance`.
+**🛠️ Tools & Libraries:** Python, Scikit-Learn (Linear Regression, Random Forest), Matplotlib.
+**📈 Key Results:** * **Linear Regression:** R² Score = 0.9178 (Best Performer)
+* **Random Forest:** R² Score = 0.8845
+* **Insight:** Momentum-based features show a highly linear trend, allowing simpler models to outperform complex ensembles in short-term predictions.
