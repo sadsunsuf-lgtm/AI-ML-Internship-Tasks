@@ -3,13 +3,15 @@ import { useState } from "react";
 import { askHealthBot } from "./actions";
 
 export default function Home() {
-  const [response, setResponse] = useState("");
+  // Fix: Explicitly tell TypeScript the state can be a string or null
+  const [response, setResponse] = useState<string | null>("");
   const [loading, setLoading] = useState(false);
 
   async function handleSubmit(formData: FormData) {
     setLoading(true);
     const result = await askHealthBot(formData);
-    setResponse(result);
+    // Fix: Use a fallback empty string if result is null
+    setResponse(result || ""); 
     setLoading(false);
   }
 
