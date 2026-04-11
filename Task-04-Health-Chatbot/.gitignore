@@ -1,0 +1,24 @@
+# --- Next.js / Node.js Rules ---
+node_modules/
+/.next/
+/out/
+/build
+.env*
+.vercel
+*.tsbuildinfo
+next-env.d.ts
+
+# --- Python / Data Science Rules ---
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+.ipynb_checkpoints/
+.pytest_cache/
+.mypy_cache/
+
+# --- System / OS Rules ---
+.DS_Store
+Thumbs.db
