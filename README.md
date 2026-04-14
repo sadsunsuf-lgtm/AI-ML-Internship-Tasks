@@ -45,15 +45,9 @@ This repository contains the projects completed during my AI/ML internship, demo
 
 - -
 
-- 🤖 Task 5: MindfulAI - Fine-Tuned Empathetic Chatbot
-Objective: Fine-tune a Large Language Model (LLM) to generate emotionally resonant and supportive responses.
+### 🤖 Task 5: MindfulAI - Fine-Tuned Empathetic Chatbot
+* **Objective:** Fine-tune a Large Language Model to generate emotionally resonant and supportive responses.
+* **Dataset:** Facebook’s **EmpatheticDialogues** (25k+ conversation samples).
+* **Models Applied:** **DistilGPT2** (Hugging Face Transformers) with specialized output filtering.
+* **Key Results:** Successfully reduced model "hallucinations" by implementing a custom logic layer to maintain assistant identity while achieving high empathy scores.
 
-Dataset: Facebook’s EmpatheticDialogues (10k+ empathetic conversations).
-
-Models Applied: DistilGPT2 (Hugging Face Transformers).
-
-Key Results: * Successfully reduced model "hallucinations" by implementing a custom Output Filter for consistent assistant identity.
-
-Deployed a specialized Streamlit UI for real-time interaction.
-
-Optimized training using 16-bit precision to fit within free-tier GPU constraints.
