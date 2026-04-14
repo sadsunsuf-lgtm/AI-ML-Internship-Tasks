@@ -42,3 +42,18 @@ This repository contains the projects completed during my AI/ML internship, demo
 ## 🚀 Deployment & Usage
 - **Live Demo (Task 4):** [https://ai-ml-internship-tasks.vercel.app](https://ai-ml-internship-tasks.vercel.app)
 - **Environment:** To run the notebooks (Tasks 1-3), install dependencies via `pip install pandas scikit-learn matplotlib`.
+
+- -
+
+- 🤖 Task 5: MindfulAI - Fine-Tuned Empathetic Chatbot
+Objective: Fine-tune a Large Language Model (LLM) to generate emotionally resonant and supportive responses.
+
+Dataset: Facebook’s EmpatheticDialogues (10k+ empathetic conversations).
+
+Models Applied: DistilGPT2 (Hugging Face Transformers).
+
+Key Results: * Successfully reduced model "hallucinations" by implementing a custom Output Filter for consistent assistant identity.
+
+Deployed a specialized Streamlit UI for real-time interaction.
+
+Optimized training using 16-bit precision to fit within free-tier GPU constraints.
