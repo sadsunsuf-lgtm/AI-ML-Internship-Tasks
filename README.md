@@ -34,6 +34,7 @@ This repository contains the projects completed during my AI/ML internship, demo
 * **Objective:** Fine-tune a Large Language Model to generate emotionally resonant and supportive responses.
 * **Dataset:** Facebook’s **EmpatheticDialogues** (25k+ conversation samples).
 * **Models Applied:** **DistilGPT2** (Hugging Face Transformers) with specialized output filtering.
+* **Key Results:** Successfully reduced model "hallucinations" by implementing a custom logic layer to maintain assistant identity while achieving high empathy scores.
 
 * Goolgle Colab Link: https://colab.research.google.com/drive/1XScpcygVGKG6Ax5hVfLR68Dm3q8py9jv?usp=sharing
 
