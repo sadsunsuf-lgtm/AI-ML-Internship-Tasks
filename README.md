@@ -1,63 +1,60 @@
-# AI & Machine Learning Internship Portfolio 🚀
+# AI & Machine Learning Engineering Internship Portfolio 🚀
+**Organization:** DevelopersHub Corporation  
+**Intern:** Sana Nasir  
+**Submission Date:** April 2026
 
-This repository contains the projects completed during my AI/ML internship, demonstrating proficiency in data analysis, predictive modeling, and Generative AI deployment.
+This repository contains all 6 internship tasks, demonstrating a full-stack foundation in Data Science, Regression, Classification, and Generative AI (LLMs).
 
 ---
 
 ## 📂 Internship Tasks
 
-### 🧪 Task 1: Iris Flower EDA
-* **Objective:** Perform Exploratory Data Analysis to identify patterns in floral species.
+### 🧪 Task 1: Exploring and Visualizing a Simple Dataset
+* **Problem:** Understanding biological variance in iris species to facilitate automated classification.
 * **Dataset:** Classic Iris Dataset (Fisher, 1936).
-* **Models/Analysis:** Statistical profiling, correlation heatmaps, and pair-plots using Seaborn.
-* **Key Results:** Successfully identified that *Iris-Setosa* is linearly separable from other species based on petal measurements.
+* **Analysis:** Performed summary statistics (.describe), distribution histograms, and box plots to identify outliers.
+* **Key Results:** Identified that Iris-Setosa is linearly separable. Used Seaborn for correlation heatmaps and pair-plots.
 
-### 📈 Task 2: Stock Price Prediction
-* **Objective:** Predict the closing price of stocks using historical time-series data.
-* **Dataset:** Yahoo Finance / Google Stock Price History (CSV).
-* **Models Applied:** Linear Regression and Moving Averages.
-* **Key Results:** Captured general market trends with a focused Mean Squared Error (MSE) analysis, showing the impact of previous-day volume on price.
+### 📈 Task 2: Predict Future Stock Prices
+* **Problem:** Forecasting short-term market movements using historical time-series data.
+* **Dataset:** Yahoo Finance (via `yfinance`).
+* **Models:** Linear Regression and Moving Averages.
+* **Key Results:** Successfully plotted actual vs. predicted prices, capturing general trends based on Open, High, Low, and Volume features.
 
 ### 💓 Task 3: Heart Disease Prediction
-* **Objective:** Classify whether a patient has heart disease based on clinical parameters.
+* **Problem:** Early detection of cardiac risk factors through clinical parameters.
 * **Dataset:** UCI Heart Disease Dataset.
-* **Models Applied:** Logistic Regression and Random Forest Classifier.
-* **Key Results:** Achieved high classification accuracy; identified 'Age' and 'Max Heart Rate' as the most significant predictors of cardiac issues.
+* **Models:** Logistic Regression and Random Forest.
+* **Evaluation:** Evaluated using **Accuracy, ROC Curves, and Confusion Matrices**.
+* **Insights:** Identified 'Max Heart Rate' and 'Age' as the most significant predictors.
 
 ### 🩺 Task 4: AI Health Assistant (Generative AI)
-* **Objective:** Create a real-time, high-speed AI chatbot for medical information.
-* **Dataset:** Pre-trained Llama 3.3 70B (via Groq Cloud).
-* **Models Applied:** Llama-3.3-70b-Versatile with specialized System Prompt Engineering.
-* **Key Results:** Built a production-ready Next.js app with sub-second response times and integrated safety disclaimers.
+* **Problem:** Providing high-speed, safe access to general health information.
+* **Model:** Llama 3.3 70B via Groq Cloud.
+* **Technique:** **System Prompt Engineering** (Acting as a medical assistant) with strict **safety filters** to prevent harmful advice.
+* **Deployment:** Live Next.js Web App with sub-second inference.
 
 ### 🤖 Task 5: MindfulAI - Fine-Tuned Empathetic Chatbot
-* **Objective:** Fine-tune a Large Language Model to generate emotionally resonant and supportive responses.
-* **Dataset:** Facebook’s **EmpatheticDialogues** (25k+ conversation samples).
-* **Models Applied:** **DistilGPT2** (Hugging Face Transformers) with specialized output filtering.
-* **Key Results:** Successfully reduced model "hallucinations" by implementing a custom logic layer to maintain assistant identity while achieving high empathy scores.
+* **Problem:** Enhancing emotional resonance in AI interactions for mental wellness support.
+* **Dataset:** Facebook’s EmpatheticDialogues (25k samples).
+* **Fine-Tuning:** Fine-tuned **DistilGPT2** using Hugging Face’s Trainer API.
+* **Key Results:** Achieved gentle, emotionally supportive tone with custom logic to handle model identity.
 
-* Goolgle Colab Link: https://colab.research.google.com/drive/1XScpcygVGKG6Ax5hVfLR68Dm3q8py9jv?usp=sharing
-
-* ### 🏠 Task 6: House Price Prediction
-* **Objective:** Predict housing prices using property features like size, age, and location.
-* **Dataset:** California Housing Dataset (20k+ entries).
-* **Models Applied:** Linear Regression and **Gradient Boosting Regressor**.
-* **Key Results:** * Successfully reduced Mean Absolute Error (MAE) from ~$50k to **~$35k** by transitioning to Gradient Boosting.
-    * Performed Feature Engineering (One-Hot Encoding) on location data to capture geographical price trends.
-    * Evaluated performance using MAE and RMSE metrics with side-by-side model comparison.
+### 🏠 Task 6: House Price Prediction
+* **Problem:** Estimating real estate value based on geographical and structural features.
+* **Dataset:** California Housing Dataset.
+* **Models:** Linear Regression vs. **Gradient Boosting Regressor**.
+* **Evaluation:** Measured via **MAE and RMSE**.
+* **Key Results:** Gradient Boosting reduced MAE by ~$15k compared to Linear Regression.
 
 ---
 
 ## 🛠️ Technical Competencies
-* **Programming:** Python (Data Science), TypeScript (Frontend/AI Integration).
-* **Libraries:** Pandas, Scikit-Learn, Matplotlib, Seaborn, Transformers, PyTorch, React, Next.js.
-* **Machine Learning:** Regression Modeling, Feature Scaling, Gradient Boosting (XGBoost logic), Hyperparameter Tuning.
-* **Inference:** Groq LPU, Hugging Face Hub.
-
----
+* **Machine Learning:** Regression, Binary Classification, Feature Scaling, One-Hot Encoding, Hyperparameter Tuning.
+* **Generative AI:** LLM Fine-tuning (Hugging Face), Prompt Engineering, Safety Guardrails.
+* **Tools:** Python (Pandas, Scikit-Learn, PyTorch), Next.js, Groq LPU, GitHub.
 
 ## 🚀 Deployment & Usage
-- **Live Demo (Task 4):** [https://ai-ml-internship-tasks.vercel.app](https://ai-ml-internship-tasks.vercel.app)
-- **Environment:** To run the notebooks (Tasks 1-3, 5-6), install dependencies via:
-  `pip install pandas scikit-learn matplotlib seaborn transformers torch`
+* **Live Demo (Task 4):** https://ai-ml-internship-tasks.vercel.app
 
+* **Notebooks:** All tasks are available as `.ipynb` files in this repository.
