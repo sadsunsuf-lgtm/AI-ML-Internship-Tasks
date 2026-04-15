@@ -49,6 +49,13 @@ This repository contains the projects completed during my AI/ML internship, demo
 * **Objective:** Fine-tune a Large Language Model to generate emotionally resonant and supportive responses.
 * **Dataset:** Facebook’s **EmpatheticDialogues** (25k+ conversation samples).
 * **Models Applied:** **DistilGPT2** (Hugging Face Transformers) with specialized output filtering.
+* ### 🏠 Task 6: House Price Prediction
+* **Objective:** Predict housing prices using property features like size, age, and location.
+* **Dataset:** California Housing Dataset (20k+ entries).
+* **Models Applied:** Linear Regression and **Gradient Boosting Regressor**.
+* **Key Results:** * Successfully reduced Mean Absolute Error (MAE) from ~$50k to **~$35k** by transitioning to Gradient Boosting.
+    * Performed Feature Engineering (One-Hot Encoding) on location data to capture geographical price trends.
+    * Evaluated performance using MAE and RMSE metrics with side-by-side model comparison.
 * **Key Results:** Successfully reduced model "hallucinations" by implementing a custom logic layer to maintain assistant identity while achieving high empathy scores.
 
 * Goolgle Colab Link: https://colab.research.google.com/drive/1XScpcygVGKG6Ax5hVfLR68Dm3q8py9jv?usp=sharing
